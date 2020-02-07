@@ -19,7 +19,8 @@ class AuthorController extends Controller
         // validation
         $this->validate($request, [
             'name' => 'required',
-            'email' => 'required'
+            'email' => 'required|email|unique:users',
+            'location' => 'required|alpha'
         ]);
 
         // insert record
