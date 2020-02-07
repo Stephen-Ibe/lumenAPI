@@ -1,0 +1,888 @@
+{
+	"info": {
+		"_postman_id": "c239c707-45b6-4b7f-80b6-e7cdd3c7e871",
+		"name": "Lumen API",
+		"description": "Basic lumen API that perform CRUD operations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/authors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text"
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text"
+						},
+						{
+							"key": "latest_article_published",
+							"value": "User Interface and Experience Concepts",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Lagos, Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text"
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text"
+						},
+						{
+							"key": "latest_article_published",
+							"value": "User Interface and Experience Concepts",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Lagos, Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "latest_article_published",
+							"value": "User Interface and Experience Concepts",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Lagos, Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "latest_article_published",
+							"value": "User Interface and Experience Concepts",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Lagos, Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "latest_article_published",
+							"value": "User Interface and Experience Concepts",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Lagos, Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "latest_article_published",
+							"value": "User Interface and Experience Concepts",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Lagos, Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "latest_article_published",
+							"value": "User Interface and Experience Concepts",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Lagos, Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "latest_article_published",
+							"value": "User Interface and Experience Concepts",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Lagos, Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text"
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text"
+						},
+						{
+							"key": "latest_article_published",
+							"value": "weird parts of JavaScript",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Somewhere in da world",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dude",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dude@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "twitter",
+							"value": "weirdo",
+							"type": "text"
+						},
+						{
+							"key": "github",
+							"value": "weirdo_dude",
+							"type": "text"
+						},
+						{
+							"key": "latest_article_published",
+							"value": "weird parts of JavaScript",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Somewhere in da world",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "sam",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "sam@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "twitter",
+							"value": "don sam",
+							"type": "text"
+						},
+						{
+							"key": "github",
+							"value": "sammy",
+							"type": "text"
+						},
+						{
+							"key": "latest_article_published",
+							"value": "Lagos, User Interface and Experience Concept",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Kalson",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "saintkalson@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "twitter",
+							"value": "Ibe Stephen",
+							"type": "text"
+						},
+						{
+							"key": "github",
+							"value": "KalsonSaint",
+							"type": "text"
+						},
+						{
+							"key": "latest_article_published",
+							"value": "Using Loops",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/authors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Kalson",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "saintkalson@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "twitter",
+							"value": "Ibe Stephen",
+							"type": "text"
+						},
+						{
+							"key": "github",
+							"value": "KalsonSaint",
+							"type": "text"
+						},
+						{
+							"key": "latest_article_published",
+							"value": "Using Loops",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/authors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Kalson",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "saintkalson@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "twitter",
+							"value": "Ibe Stephen",
+							"type": "text"
+						},
+						{
+							"key": "github",
+							"value": "KalsonSaint",
+							"type": "text"
+						},
+						{
+							"key": "latest_article_published",
+							"value": "Using Loops",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Nigeria",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "admin",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "admin",
+				"type": "string"
+			}
+		]
+	},
+	"protocolProfileBehavior": {}
+}

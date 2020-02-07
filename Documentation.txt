@@ -34,3 +34,4 @@ Controller responses:
 
 
 Test the API routes with POSTMAN.
+Include in the root folder is JSON FILE that contains Postman Collection...
