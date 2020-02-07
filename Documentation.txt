@@ -1,0 +1,36 @@
+====================    AUTHOR'S API built with LUMEN   ====================
+
+This API will be able to:
+
+    - Get all authors.
+    - Get one author.
+    - Add a new author.
+    - Edit an author.
+    - Delete an author.
+
+Endpoints for the API:
+    - Get all authors - GET /api/authors
+    - Get one author. - GET /api/authors/{id}
+    - Add a new author. - POST /api/authors
+    - Edit an author.   - PUT /api/authors/{id}
+    - Delete an author. - DELETE / api/authors/{id}
+
+Author controller method overview:
+
+    - showAllAuthors() - checks for all the author resources
+    - create() - creates a new author resource
+    - showOneAuthor() - checks for a single author resource
+    - update() - checks if an author resource exists and allows the resource to be updated.
+    - delete() - checks if an author resource exists and deletes it
+
+Controller responses:
+
+    - response() - global helper function that obtains an instance of the response factory
+    - response()->json() - returns the response in JSON format.
+    - 200 - HTTP status code that indicates the request was successful.
+    - 201 - HTTP status code that indicates a new resource has just been created.
+    - findOrFail - throws a ModelNotFoundException if no result is not found.
+
+
+
+Test the API routes with POSTMAN.
